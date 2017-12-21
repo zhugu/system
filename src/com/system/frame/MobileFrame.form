@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.system.frame.MobileFrame">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="381" height="410"/>
+    </constraints>
+    <properties>
+      <background color="-657931"/>
+      <maximumSize width="330" height="410"/>
+      <minimumSize width="330" height="410"/>
+      <preferredSize width="330" height="410"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="8295" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="26" style="1"/>
+          <foreground color="-13158601"/>
+          <text value="手机验证码登录"/>
+        </properties>
+      </component>
+      <component id="6c8e9" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="480e1" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="27b5b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="16"/>
+          <foreground color="-13158601"/>
+          <text value="请输入工号："/>
+        </properties>
+      </component>
+      <component id="d038f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft YaHei" size="16"/>
+          <foreground color="-13158601"/>
+          <text value="请输入密码："/>
+        </properties>
+      </component>
+      <component id="952c6" class="javax.swing.JButton" binding="getButton">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13127336"/>
+          <borderPainted value="false"/>
+          <focusPainted value="false"/>
+          <font name="Microsoft YaHei"/>
+          <foreground color="-1"/>
+          <horizontalAlignment value="4"/>
+          <horizontalTextPosition value="4"/>
+          <text value="获取验证码"/>
+        </properties>
+      </component>
+      <component id="57ae4" class="javax.swing.JButton" binding="立即登录Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14178085"/>
+          <borderPainted value="false"/>
+          <focusable value="false"/>
+          <font name="Microsoft YaHei"/>
+          <foreground color="-1"/>
+          <hideActionText value="false"/>
+          <horizontalTextPosition value="0"/>
+          <text value="立即登录"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
